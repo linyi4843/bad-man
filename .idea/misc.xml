@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/service-config/pom.xml" />
         <option value="$PROJECT_DIR$/service-conf-client/pom.xml" />
         <option value="$PROJECT_DIR$/service-miya/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-one/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-two/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

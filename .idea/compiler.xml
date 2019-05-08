@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consul-one" />
+        <module name="consul-two" />
         <module name="eureka-server" />
         <module name="serice-feign" />
         <module name="service-conf-client" />
@@ -22,6 +24,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bad-man-01" options="-parameters" />
+      <module name="consul-one" options="-parameters" />
+      <module name="consul-two" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="serice-feign" options="-parameters" />
       <module name="service-conf-client" options="-parameters" />

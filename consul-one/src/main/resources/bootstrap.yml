@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: consul-one
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: consul-one
+      config:
+        enabled: true
+        format: yaml
+        prefix: congfig
+        profile-separator: ':'
+        data-key: data
+
+feign:
+  hystrix:
+    enabled: true

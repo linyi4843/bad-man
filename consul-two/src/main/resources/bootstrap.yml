@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: consul-two
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: consul-two
+      config:
+        enabled: true
+        format: yaml
+        prefix: congfig
+        profile-separator: ':'
+        data-key: data
