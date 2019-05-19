@@ -10,6 +10,6 @@ spring:
       config:
         enabled: true
         format: yaml
-        prefix: congfig
+        prefix: config
         profile-separator: ':'
         data-key: data
