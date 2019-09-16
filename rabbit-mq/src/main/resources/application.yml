@@ -1,8 +1,13 @@
 server:
-  port: 9080
+  port: 7080
 
 spring:
+  application:
+    name: rabbit
+
   rabbitmq:
+    host: 120.79.238.66
     port: 5672
-    username:
-    password:
+    username: root
+    password: root
+    virtual-host: /

@@ -13,3 +13,5 @@ spring:
         prefix: config
         profile-separator: ':'
         data-key: data
+        watch:
+          enabled: true

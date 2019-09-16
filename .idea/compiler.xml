@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-config" />
         <module name="consul-one" />
-        <module name="eureka-server" />
-        <module name="service-miya" />
         <module name="consul-two" />
-        <module name="service-hi" />
-        <module name="service-conf-client" />
+        <module name="eureka-server" />
         <module name="rabbit-mq" />
         <module name="serice-feign" />
+        <module name="service-conf-client" />
+        <module name="service-config" />
+        <module name="service-hi" />
+        <module name="service-miya" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
